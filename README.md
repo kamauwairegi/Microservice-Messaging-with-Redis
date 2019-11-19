@@ -1,6 +1,10 @@
 # Microservice-Messaging-with-Redis
 How two micro services can communicate using redis
-Microservice implementation of Monolithic blog app here >>  https://github.com/kamauwairegi/Microservice-Messaging-with-Redis
+Microservice implementation of Monolithic blog app here >>  https://github.com/kamauwairegi/Monolithic-Messaging-With-Redis
+
+This is an simulated implementation of how Redis can be used to solve such scenario assuming we have 1000s of bloggers and millions of subscribers. Sending emails needs queuing.
+
+Posting and actual emails sending omitted for brevity.
 
 # Requirement
 Install redis https://redis.io/ from here
